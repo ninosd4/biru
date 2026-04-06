@@ -1,103 +1,171 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>biru</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header id="home" >
-        <nav class="main">
-            <div class="logo">
-                <a href="#">biru</a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#home">الرئيسة</a></li>
-                    <li><a href="#services">خدماتنا</a></li>
-                    <li><a href="#about">من نحن</a></li>
-                    <li><a href="#contact">اتصل بنا</a></li>
-                </ul>
-            </div>
-            <div class="btn">
-                <a href="#">تواصل معي</a>
-            </div>
-        </nav>
-         <div class="hamborger" id="hamborger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-        <div class="main-text">
-            <h1><span>hello</span> this is biru</h1>
-            <h3>front-End developer</h3>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <nav class="main">
+        <div class="logo">
+          <a href="#">biru</a>
         </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home">الرئيسة</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="btn">
+          <a href="#">تواصل معي</a>
+        </div>
+      </nav>
+      <div class="hamborger" id="hamborger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="main-text">
+        <h1><span>hello</span> this is biru</h1>
+        <h3>front-End developer</h3>
+      </div>
     </header>
     <!-- prodects -->
 
     <section class="prodects" id="services">
-        <div class="prodect">
-            <img src="img/1.jpg" alt="">
-            <h2>prodect 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <button class="btn-prodect">buy now</button>
+      <div class="prodect">
+        <img src="img/1.jpg" alt="" />
+        <h2>prodect 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          voluptate.
+        </p>
+        <button class="btn-prodect">buy now</button>
+
+           <!-- modal -->
+      <div class="prodect-modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="img/1.jpg" alt="" />
+          <h2>prodect 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <label>الكمية:</label>
+          <input type="number" value="1" min="1" />
+          <button class="add-to-cart">اضف للسلة</button>
         </div>
-        <div class="prodect">
-            <img src="img/1.jpg" alt="">
-            <h2>prodect 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <button class="btn-prodect">buy now</button>
+      </div>
+      </div>
+   
+
+      <div class="prodect">
+        <img src="img/1.jpg" alt="" />
+        <h2>prodect 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          voluptate.
+        </p>
+        <button class="btn-prodect">buy now</button>
+
+           <!-- modal -->
+      <div class="prodect-modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="img/1.jpg" alt="" />
+          <h2>prodect 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <label>الكمية:</label>
+          <input type="number" value="1" min="1" />
+          <button class="add-to-cart">اضف للسلة</button>
         </div>
-        <div class="prodect">
-            <img src="img/1.jpg" alt="">
-            <h2>prodect 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <button class="btn-prodect">buy now</button>
+      </div>
+      </div>
+
+      <div class="prodect">
+        <img src="img/1.jpg" alt="" />
+        <h2>prodect 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          voluptate.
+        </p>
+        <button class="btn-prodect">buy now</button>
+
+           <!-- modal -->
+      <div class="prodect-modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <img src="img/1.jpg" alt="" />
+          <h2>prodect 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <label>الكمية:</label>
+          <input type="number" value="1" min="1" />
+          <button class="add-to-cart">اضف للسلة</button>
         </div>
+      </div>
+      </div>
+      
     </section>
     <!-- about us -->
     <section class="about" id="about">
-        <div class="about-text">
-            <h2>من نحن</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <button class="btn-about">read more</button>
-        </div>
-        <div class="about-img">
-            <img src="img/1.jpg" alt="">
-        </div>
+      <div class="about-text">
+        <h2>من نحن</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Voluptas, voluptate.
+        </p>
+        <button class="btn-about">read more</button>
+      </div>
+      <div class="about-img">
+        <img src="img/1.jpg" alt="" />
+      </div>
     </section>
 
     <!-- contact -->
 
     <section class="contact" id="contact">
-        <h2>اتصل بنا</h2>
-        <form action="">
-            <input type="text" placeholder="الاسم">
-            <input type="email" placeholder="البريد الالكتروني">
-            <textarea name="" id="" cols="30" rows="10" placeholder="رسالتك"></textarea>
-            <button class="btn-contact">ارسال</button>
-        </form>
+      <h2>اتصل بنا</h2>
+      <form action="">
+        <input type="text" placeholder="الاسم" />
+        <input type="email" placeholder="البريد الالكتروني" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="رسالتك"
+        ></textarea>
+        <button class="btn-contact">ارسال</button>
+      </form>
     </section>
 
     <!-- footer -->
     <footer>
-        <p>جميع الحقوق محفوظة &copy; 2024</p>
-        <ul>
-            <li><a href="#home">الرئيسة</a></li>
-            <li><a href="#services">خدماتنا</a></li>
-            <li><a href="#about">من نحن</a></li>
-            <li><a href="#contact">اتصل بنا</a></li>
-        </ul>
+      <p>جميع الحقوق محفوظة &copy; 2024</p>
+      <ul>
+        <li><a href="#home">الرئيسة</a></li>
+        <li><a href="#services">خدماتنا</a></li>
+        <li><a href="#about">من نحن</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+      </ul>
     </footer>
 
-
-
-
-<script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
